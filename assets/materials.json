@@ -1,0 +1,565 @@
+{
+  "version": 1,
+  "materials": [
+    {
+      "id": "abstract-crimson",
+      "name": "绯红断章",
+      "kind": "image",
+      "file": "materials/abstract-crimson.jpg",
+      "thumb": "thumbs/abstract-crimson.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "abstract",
+        "dark",
+        "red",
+        "minimal"
+      ],
+      "palette": [
+        "#610409",
+        "#7d040e",
+        "#3f0304"
+      ],
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Sergey A. Demidov"
+      },
+      "variants": {
+        "1600": "materials/abstract-crimson-1600.webp",
+        "960": "materials/abstract-crimson-960.webp"
+      }
+    },
+    {
+      "id": "bokeh-lights",
+      "name": "夜色光斑",
+      "kind": "image",
+      "file": "materials/bokeh-lights.jpg",
+      "thumb": "thumbs/bokeh-lights.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "bokeh",
+        "dark",
+        "light",
+        "night"
+      ],
+      "palette": [
+        "#120e0a",
+        "#dcceb9",
+        "#3f586b"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "thr3 eyes thr3eyes"
+      },
+      "variants": {
+        "1600": "materials/bokeh-lights-1600.webp",
+        "960": "materials/bokeh-lights-960.webp"
+      }
+    },
+    {
+      "id": "nature-dawn",
+      "name": "远山暮霭",
+      "kind": "image",
+      "file": "materials/nature-dawn.jpg",
+      "thumb": "thumbs/nature-dawn.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "nature",
+        "mountain",
+        "mist",
+        "gradient"
+      ],
+      "palette": [
+        "#e5c1ab",
+        "#697f8c",
+        "#283b46"
+      ],
+      "license": {
+        "name": "CC BY 3.0",
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "author": "Ron Shawley"
+      },
+      "variants": {
+        "1600": "materials/nature-dawn-1600.webp",
+        "960": "materials/nature-dawn-960.webp"
+      }
+    },
+    {
+      "id": "nature-dusk",
+      "name": "长河落日",
+      "kind": "image",
+      "file": "materials/nature-dusk.jpg",
+      "thumb": "thumbs/nature-dusk.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "nature",
+        "sunset",
+        "water",
+        "reflection"
+      ],
+      "palette": [
+        "#9299ad",
+        "#e4a15d",
+        "#484753"
+      ],
+      "license": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/",
+        "author": "Vasily Iakovlev"
+      },
+      "variants": {
+        "1600": "materials/nature-dusk-1600.webp",
+        "960": "materials/nature-dusk-960.webp"
+      }
+    },
+    {
+      "id": "nature-blue",
+      "name": "盐湖晨蓝",
+      "kind": "image",
+      "file": "materials/nature-blue.jpg",
+      "thumb": "thumbs/nature-blue.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "nature",
+        "lake",
+        "calm",
+        "blue"
+      ],
+      "palette": [
+        "#bddee7",
+        "#6f8f9c",
+        "#274558"
+      ],
+      "license": {
+        "name": "CC BY 2.0",
+        "url": "https://creativecommons.org/licenses/by/2.0/",
+        "author": "sam garza from Los Angeles, USA"
+      },
+      "variants": {
+        "1600": "materials/nature-blue-1600.webp",
+        "960": "materials/nature-blue-960.webp"
+      }
+    },
+    {
+      "id": "city-night",
+      "name": "多瑙河夜色",
+      "kind": "image",
+      "file": "materials/city-night.jpg",
+      "thumb": "thumbs/city-night.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "city",
+        "night",
+        "dark",
+        "architecture"
+      ],
+      "palette": [
+        "#251908",
+        "#63451a",
+        "#9e7b47"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Wilfredor"
+      },
+      "variants": {
+        "1600": "materials/city-night-1600.webp",
+        "960": "materials/city-night-960.webp"
+      }
+    },
+    {
+      "id": "night-milkyway",
+      "name": "银河旷野",
+      "kind": "image",
+      "file": "materials/night-milkyway.jpg",
+      "thumb": "thumbs/night-milkyway.webp",
+      "width": 2048,
+      "height": 1152,
+      "tags": [
+        "starry",
+        "milkyway",
+        "night",
+        "dark"
+      ],
+      "palette": [
+        "#46474a",
+        "#746d61",
+        "#0b070a"
+      ],
+      "license": {
+        "name": "Public Domain",
+        "url": "https://commons.wikimedia.org/wiki/File:Milky_Way_and_starry_night_sky_(26972689115).jpg",
+        "author": "NPS/Jacob W. Frank"
+      },
+      "variants": {
+        "1600": "materials/night-milkyway-1600.webp",
+        "960": "materials/night-milkyway-960.webp"
+      }
+    },
+    {
+      "id": "night-aurora",
+      "name": "极光湖面",
+      "kind": "image",
+      "file": "materials/night-aurora.jpg",
+      "thumb": "thumbs/night-aurora.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "starry",
+        "aurora",
+        "night",
+        "dark",
+        "nature"
+      ],
+      "palette": [
+        "#156181",
+        "#68a3ba",
+        "#272129"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Yuliya"
+      },
+      "variants": {
+        "1600": "materials/night-aurora-1600.webp",
+        "960": "materials/night-aurora-960.webp"
+      }
+    },
+    {
+      "id": "mountain-aerial",
+      "name": "雪岭晨光",
+      "kind": "image",
+      "file": "materials/mountain-aerial.jpg",
+      "thumb": "thumbs/mountain-aerial.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "mountain",
+        "snow",
+        "aerial",
+        "light"
+      ],
+      "palette": [
+        "#645d76",
+        "#2a293b",
+        "#d9b5b2"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "lumoplank"
+      },
+      "variants": {
+        "1600": "materials/mountain-aerial-1600.webp",
+        "960": "materials/mountain-aerial-960.webp"
+      }
+    },
+    {
+      "id": "texture-dunes",
+      "name": "沙丘墨影",
+      "kind": "image",
+      "file": "materials/texture-dunes.jpg",
+      "thumb": "thumbs/texture-dunes.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "texture",
+        "desert",
+        "monochrome",
+        "minimal"
+      ],
+      "palette": [
+        "#2c2c32",
+        "#7f7f80",
+        "#bcbcbc"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "www.Pixel.la Free Stock Photos"
+      },
+      "variants": {
+        "1600": "materials/texture-dunes-1600.webp",
+        "960": "materials/texture-dunes-960.webp"
+      }
+    },
+    {
+      "id": "texture-paper",
+      "name": "白絮纸纹",
+      "kind": "image",
+      "file": "materials/texture-paper.jpg",
+      "thumb": "thumbs/texture-paper.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "texture",
+        "paper",
+        "light",
+        "minimal"
+      ],
+      "palette": [
+        "#fefefe",
+        "#f4f4f4",
+        "#e0e0e1"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Epicpanda65"
+      },
+      "variants": {
+        "1600": "materials/texture-paper-1600.webp",
+        "960": "materials/texture-paper-960.webp"
+      }
+    },
+    {
+      "id": "gradient-prism",
+      "name": "棱镜光瀑",
+      "kind": "image",
+      "file": "materials/gradient-prism.jpg",
+      "thumb": "thumbs/gradient-prism.webp",
+      "width": 2400,
+      "height": 1350,
+      "tags": [
+        "gradient",
+        "dark",
+        "abstract",
+        "light"
+      ],
+      "palette": [
+        "#293048",
+        "#467a9d",
+        "#9158b5"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Vidsplay"
+      },
+      "variants": {
+        "1600": "materials/gradient-prism-1600.webp",
+        "960": "materials/gradient-prism-960.webp"
+      }
+    },
+    {
+      "id": "video-snowdrift",
+      "name": "雪岭穿行",
+      "kind": "video",
+      "file": "materials/video-snowdrift.mp4",
+      "thumb": "thumbs/video-snowdrift.webp",
+      "width": 1920,
+      "height": 1080,
+      "durationMs": 8000,
+      "tags": [
+        "video",
+        "kenburns",
+        "mountain",
+        "snow",
+        "light"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "lumoplank (source photo); motion by dsh-skin"
+      },
+      "palette": [
+        "#635c76",
+        "#29293b",
+        "#d8b0ab"
+      ]
+    },
+    {
+      "id": "video-aurora",
+      "name": "极光呼吸",
+      "kind": "video",
+      "file": "materials/video-aurora.mp4",
+      "thumb": "thumbs/video-aurora.webp",
+      "width": 1920,
+      "height": 1080,
+      "durationMs": 8000,
+      "tags": [
+        "video",
+        "kenburns",
+        "aurora",
+        "night",
+        "dark"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Yuliya (source photo); motion by dsh-skin"
+      },
+      "palette": [
+        "#68a2b7",
+        "#156483",
+        "#231d26"
+      ]
+    },
+    {
+      "id": "gradient-flow",
+      "name": "光瀑流动",
+      "kind": "animated",
+      "file": "materials/gradient-flow.webp",
+      "thumb": "thumbs/gradient-flow.webp",
+      "width": 1280,
+      "height": 720,
+      "durationMs": 3612,
+      "tags": [
+        "animated",
+        "gradient",
+        "dark",
+        "loop"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "Vidsplay (source gradient); animation by dsh-skin"
+      },
+      "palette": [
+        "#20283c",
+        "#38486a",
+        "#5c639d"
+      ]
+    },
+    {
+      "id": "css-aurora-veil",
+      "name": "极光薄纱",
+      "kind": "gradient",
+      "gradient": "conic-gradient(from 215deg at 32% 28%, #0b1220 0deg, #14304d 90deg, #0f3f42 160deg, #2a2144 235deg, #0b1220 320deg), radial-gradient(120% 90% at 78% 12%, rgba(72,170,180,0.18), transparent 58%), linear-gradient(160deg, #070a11, #0c1320 55%, #101a26)",
+      "tags": [
+        "gradient",
+        "dark",
+        "conic",
+        "aurora"
+      ],
+      "palette": [
+        "#0b1220",
+        "#14304d",
+        "#0f3f42"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "dsh-skin"
+      }
+    },
+    {
+      "id": "css-ember-dusk",
+      "name": "余烬暮色",
+      "kind": "gradient",
+      "gradient": "radial-gradient(95% 65% at 18% 92%, rgba(150,64,38,0.55), transparent 62%), radial-gradient(80% 58% at 88% 8%, rgba(92,44,96,0.5), transparent 60%), linear-gradient(155deg, #130e0c, #1d1512 58%, #261a15)",
+      "tags": [
+        "gradient",
+        "dark",
+        "radial",
+        "warm"
+      ],
+      "palette": [
+        "#1d1512",
+        "#5a2e22",
+        "#2b1a2b"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "dsh-skin"
+      }
+    },
+    {
+      "id": "css-graphite-grid",
+      "name": "石墨网格",
+      "kind": "gradient",
+      "gradient": "repeating-linear-gradient(90deg, rgba(255,255,255,0.045) 0 1px, transparent 1px 72px), repeating-linear-gradient(0deg, rgba(255,255,255,0.045) 0 1px, transparent 1px 72px), radial-gradient(130% 90% at 50% -10%, #1d2833, #0a0e13 72%)",
+      "tags": [
+        "gradient",
+        "dark",
+        "grid"
+      ],
+      "palette": [
+        "#0a0e13",
+        "#1d2833",
+        "#26313c"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "dsh-skin"
+      }
+    },
+    {
+      "id": "css-sea-glass",
+      "name": "海玻璃",
+      "kind": "gradient",
+      "gradient": "radial-gradient(120% 90% at 12% 8%, #eef6f5, transparent 62%), radial-gradient(90% 75% at 88% 28%, #e2ecf3, transparent 58%), linear-gradient(165deg, #f8faf9, #eef4f1 52%, #e7edf2)",
+      "tags": [
+        "gradient",
+        "light",
+        "radial",
+        "calm"
+      ],
+      "palette": [
+        "#f8faf9",
+        "#eef4f1",
+        "#e2ecf3"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "dsh-skin"
+      }
+    },
+    {
+      "id": "css-rose-quartz",
+      "name": "玫瑰石英",
+      "kind": "gradient",
+      "gradient": "radial-gradient(105% 82% at 22% 18%, #fdf0ee, transparent 62%), radial-gradient(90% 70% at 82% 84%, #f4e6ef, transparent 60%), linear-gradient(150deg, #fffbf9, #fbf2f1 58%, #f5ecf2)",
+      "tags": [
+        "gradient",
+        "light",
+        "radial",
+        "warm"
+      ],
+      "palette": [
+        "#fffbf9",
+        "#fbf2f1",
+        "#f4e6ef"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "dsh-skin"
+      }
+    },
+    {
+      "id": "css-ivory-grid",
+      "name": "象牙网格",
+      "kind": "gradient",
+      "gradient": "repeating-linear-gradient(90deg, rgba(18,28,38,0.05) 0 1px, transparent 1px 64px), repeating-linear-gradient(0deg, rgba(18,28,38,0.05) 0 1px, transparent 1px 64px), linear-gradient(180deg, #fcfcfa, #f1f2ee)",
+      "tags": [
+        "gradient",
+        "light",
+        "grid",
+        "minimal"
+      ],
+      "palette": [
+        "#fcfcfa",
+        "#f1f2ee",
+        "#e7e8e2"
+      ],
+      "license": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "author": "dsh-skin"
+      }
+    }
+  ]
+}

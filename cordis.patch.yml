@@ -1,0 +1,5 @@
+# dsh-skin 宿主条目：注册 /dsh-skin 路由（内置素材 + 在线素材搜索代理）。
+- insert:
+    - id: dsh-skin
+      name: '@local/dsh-skin'
+      config: {}

@@ -1,0 +1,11 @@
+node_modules/
+.sandbox/
+.verify/
+ref/
+work/
+dist/
+pnpm-lock.yaml
+*.log
+.DS_Store
+docs/DESIGN-SPEC.md
+docs/ACCEPTANCE.md

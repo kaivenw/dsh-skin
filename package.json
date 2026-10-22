@@ -1,0 +1,59 @@
+{
+  "name": "@local/dsh-skin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DSH 换肤：用静态图 / 动图 / 视频 / 渐变作为 GUI 全局背景皮肤，支持透明度、模糊、玻璃、透明体与素材市场。",
+  "license": "MIT",
+  "icon": "./icon.svg",
+  "keywords": [
+    "deepseek",
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "theme",
+    "wallpaper",
+    "skin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivenw/dsh-skin.git"
+  },
+  "homepage": "https://github.com/kaivenw/dsh-skin#readme",
+  "bugs": {
+    "url": "https://github.com/kaivenw/dsh-skin/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "icon.svg",
+    "assets",
+    "docs",
+    "README.md",
+    "install.command",
+    "scripts"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  },
+  "scripts": {
+    "build": "node scripts/build-client.mjs",
+    "install": "node scripts/install-profile.mjs",
+    "uninstall": "node scripts/install-profile.mjs --uninstall"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
